@@ -29,8 +29,7 @@ body,
 .box {
   width: 300px;
   height: 60px;  
-  margin: 5px;  
-
+  margin: 5px;
   flex-grow: 0; /* Permite que o elemento estique p/ ocupar todo o comprimento disponível em tela.
   Default -> flex-grow: 0 */ 
 

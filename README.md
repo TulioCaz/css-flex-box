@@ -2,7 +2,7 @@
   <img        src="https://github.com/TulioCaz/css-flex-box/blob/master/images/conclusao-de-flexbox-css.png" alt="CSS">  
 </h1>
   <br/>
-  <h2> Conceitos de CSS Flexbox </h2>
+  <h2 align="center"> Conceitos de CSS Flexbox </h2>
   
 ### Conteudo
 

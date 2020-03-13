@@ -1,0 +1,57 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+
+#app {
+  display: flex; /* Usar no elemento pai para trabalhar com flexbox  */
+
+  flex-direction: Row; /* Direção dos elementos filho. 
+  Default -> flex-direction: Row */
+
+  justify-content: flex-start; /* Alinha os elementos no mesmo eixo do flex-direction.
+  Default -> justify-content: flex-start */
+
+  align-items: flex-start; /* Alinha os elementos no eixo contrario do flex-direction.
+  Default -> align-items: flex-start */
+
+  flex-wrap: wrap; /* Permite a quebra de linha caso não tenha espaço p/ os elementos filhos
+  Default -> nowrap */
+
+  align-content: flex-start; /* Quando os elementos ocupam mais de uma linha, 
+  permite alinhar os elementos no eixo contrario do align-items 
+  Default -> stretch */
+}
+
+.box {
+  width: 300px;
+  height: 60px;  
+  margin: 5px;  
+
+  flex-grow: 0; /* Permite que o elemento estique p/ ocupar todo o comprimento disponível em tela.
+  Default -> flex-grow: 0 */ 
+
+  flex-shrink: 1; /* Permite que o elemento comprima p/ ocupar toda a largura disponível em tela.
+  Default -> flex-shrink: 1 */
+
+  /* flex: 0 1;  Junção do Flex-grow com flex-shrink ; */
+}
+
+.green {
+  background-color: green;
+  order: 1; /* A ordem que os elementos vão aparecer na tela.*/
+}
+
+.blue {
+  background-color: blue;
+  order: 2;
+}
+
+.red {
+  background-color: red;
+  order: 0;
+}
+
